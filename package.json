@@ -1,0 +1,21 @@
+{
+  "name": "posthtml-each",
+  "version": "1.0.0",
+  "description": "Repeat your content",
+  "keywords": [
+    "posthtml",
+    "html",
+    "posthtml-plugin",
+    "each",
+    "forEach",
+    "repeat"
+  ],
+  "author": "Andrew Gurylev <andrew@gurylev.com>",
+  "license": "CC0-1.0",
+  "repository": "Gurylev/posthtml-each",
+  "homepage": "https://github.com/Gurylev/posthtml-each#readme",
+  "bugs": "https://github.com/Gurylev/posthtml-each/issues",
+  "dependencies": {
+    "posthtml": "^0.8.0"
+  }
+}
