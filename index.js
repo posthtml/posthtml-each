@@ -1,3 +1,5 @@
+var objectAssign = require('object-assign');
+
 module.exports = function() {
     return function posthtmlEach(tree) {
         tree.match({ attrs: { each: true }}, function(node) {

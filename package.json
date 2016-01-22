@@ -1,6 +1,6 @@
 {
   "name": "posthtml-each",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Repeat your content",
   "keywords": [
     "posthtml",
@@ -16,6 +16,7 @@
   "homepage": "https://github.com/Gurylev/posthtml-each#readme",
   "bugs": "https://github.com/Gurylev/posthtml-each/issues",
   "dependencies": {
+    "object-assign": "^4.0.1",
     "posthtml": "^0.8.0"
   }
 }
