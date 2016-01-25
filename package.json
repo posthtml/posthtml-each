@@ -18,5 +18,9 @@
   "dependencies": {
     "object-assign": "^4.0.1",
     "posthtml": "^0.8.0"
+  },
+  "engines": {
+    "iojs": ">=2.0.0",
+    "node": ">=0.12.0"
   }
 }

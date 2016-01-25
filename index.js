@@ -1,3 +1,4 @@
+var posthtml = require('posthtml');
 var objectAssign = require('object-assign');
 
 module.exports = function() {
@@ -7,9 +8,13 @@ module.exports = function() {
             var content = [];
 
             delete node.attrs.each;
-            for(var i=0; i < length; i++) content.push(Object.assign({}, node));
+            //[].fill(content, 0, length).map(node => Object.assign({},node));
+            for(var i=0; i < length; i++) content.push(objectAssign({}, node));
             return content;
         });
         return tree;
     };
+};
+module.exports.process = function (contents, options) {
+    return posthtml().use(module.exports(options)).process(contents);
 };
