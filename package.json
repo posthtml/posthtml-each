@@ -1,6 +1,6 @@
 {
   "name": "posthtml-each",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Repeat your content",
   "keywords": [
     "posthtml",
@@ -18,6 +18,13 @@
   "dependencies": {
     "object-assign": "^4.0.1",
     "posthtml": "^0.8.0"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  },
+  "scripts": {
+    "test": "tape test/test.js | tap-spec"
   },
   "engines": {
     "iojs": ">=2.0.0",
