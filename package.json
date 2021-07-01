@@ -17,7 +17,7 @@
   "bugs": "https://github.com/Gurylev/posthtml-each/issues",
   "dependencies": {
     "object-assign": "^4.0.1",
-    "posthtml": "^0.16.1"
+    "posthtml": "^0.16.2"
   },
   "devDependencies": {
     "tap-spec": "^4.1.1",
